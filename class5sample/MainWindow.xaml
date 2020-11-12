@@ -1,0 +1,19 @@
+﻿<Window x:Class="class5sample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:class5sample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="ButtonSlow" Content="SLOW" Margin="320,122,320,243" Background="Yellow" Click="ButtonSlow_Click" FontFamily="Goudy Stout" FontWeight="Bold" BorderBrush="White" FontSize="18"/>
+        <Button x:Name="ButtonGo" Content="GO" Margin="320,182,320,183" Background="Lime" Click="ButtonGo_Click" FontFamily="Goudy Stout" FontWeight="Bold" VerticalAlignment="Center" Height="55" BorderBrush="White" FontSize="18"/>
+        <Button x:Name="ButtonStop" Content="STOP" Margin="320,59,320,303" Background="Red" Click="ButtonStop_Click" FontFamily="Goudy Stout" FontWeight="Bold" VerticalAlignment="Center" Height="58" BorderBrush="White" FontSize="18"/>
+        <Image x:Name="ImageFinish" HorizontalAlignment="Left" Height="100" Margin="659,320,0,0" VerticalAlignment="Top" Width="100" Source="finish.jpg"/>
+        <Image x:Name="ImageCar" HorizontalAlignment="Left" Height="53" Margin="10,357,0,0" VerticalAlignment="Top" Width="100" Source="orange-car.png" Stretch="Fill"/>
+        <Image x:Name="ImageSign" HorizontalAlignment="Left" Height="77" Margin="49,40,0,0" VerticalAlignment="Top" Width="102" Source="Warningsign.gif" Stretch="Fill" Visibility="Hidden"/>
+        <Image x:Name="ImageFans" HorizontalAlignment="Left" Height="106" Margin="554,122,0,0" VerticalAlignment="Top" Width="182" Source="fans.jpg" Stretch="Fill"  Visibility="Hidden"/>
+
+    </Grid>
+</Window>
